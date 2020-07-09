@@ -1,0 +1,48 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60%;
+    justify-content: space-between;
+  }
+  .text1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+  }
+  .text3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    float: right;
+  }
+  .activeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+  }
+  
+  .activeItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .activeContainer img {
+    padding-left: 10px;
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }
+  
